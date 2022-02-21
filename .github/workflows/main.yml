@@ -9,4 +9,4 @@ jobs: # is the base component of a workflow run
       - uses: actions/checkout@v1 # uses a community action called checkout to allow the workflow to access the contents of the repository
       - uses: ./action-a # provides the relative path to the action we created in the action-a directory of the repository
         with: # is used to specify the input variables that will be available to your action in the runtime environment. 
-          MY_NAME: "Mona" # In this case, the input variable is MY_NAME, and it is currently initialized to "Mona".
+          MY_NAME: "Ana" # In this case, the input variable is MY_NAME, and it is currently initialized to "Mona".
