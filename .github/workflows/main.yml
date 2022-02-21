@@ -3,7 +3,7 @@ on: push #  indicates that the workflows will execute anytime code is pushed to 
 
 jobs: # is the base component of a workflow run
   build: # is the identifier we're attaching to this job
-    name: Hello world action # is the name of the job, this is displayed on GitHub when the workflow is running
+    name: First action # is the name of the job, this is displayed on GitHub when the workflow is running
     runs-on: ubuntu-latest # defines the type of machine to run the job on. The machine can be either a GitHub-hosted runner or a self-hosted runner.
     steps: # the linear sequence of operations that make up a job
       - uses: actions/checkout@v1 # uses a community action called checkout to allow the workflow to access the contents of the repository
